@@ -5,10 +5,10 @@ def key_for_min_value(name_hash)
   var_key = nil
   var_value = nil
 
-  name_hash.each do |key, value|
-      if (var_value = nil || var_value > value)
-        var_value = value
-        var_key = key
+  name_hash.each do |each_key, each_value|
+      if (var_value = nil || var_value > each_value)
+        var_value = each_value
+        var_key = each_key
       end
   end
   var_key
