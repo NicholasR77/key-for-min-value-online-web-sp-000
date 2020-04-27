@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     return nil
   else
     hash.map do |key, value|
-      something
-    end   
+      key
+    end
   end
 end
